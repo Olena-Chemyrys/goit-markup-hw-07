@@ -30,8 +30,7 @@
   height: 120px;
   background-color: var(--buttons-background);
   border-radius: 4px;
-  display: flex;
+  @extend .flex-align;
   justify-content: center;
-  align-items: center;
   margin-bottom: 30px;
 }

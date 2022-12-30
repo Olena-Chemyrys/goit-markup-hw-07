@@ -13,8 +13,7 @@
   font-size: 16px;
   line-height: 1.25;
   color: var(--primary-white-color);
-  display: flex;
-  align-items: center;
+  @extend .flex-align;
   letter-spacing: 0.03em;
   color: var(--footer-links-color);
   padding-left: 16px;
@@ -22,8 +21,7 @@
 }
 
 .mailing-btn {
-  display: flex;
-  align-items: center;
+  @extend .flex-align;
   justify-content: center;
   width: 200px;
   height: 50px;

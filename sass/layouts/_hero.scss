@@ -40,6 +40,7 @@
   background-color: var(--accent-color);
   display: flex;
   align-items: center;
+  // @extend .flex-align;
   justify-content: center;
   margin: 0 auto;
   padding: 10px 24px;

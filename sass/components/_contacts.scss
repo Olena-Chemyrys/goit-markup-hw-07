@@ -16,9 +16,8 @@
 }
 
 .contact-list__link {
-  display: flex;
+  @extend .flex-align;
   align-self: center;
-  align-items: center;
   color: var(--primary-text-color);
   transition: color var(--animate);
   &:hover,

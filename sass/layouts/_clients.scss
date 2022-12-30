@@ -13,9 +13,8 @@
 .client-link {
   width: 100%;
   height: 100%;
-  display: flex;
+  @extend .flex-align;
   justify-content: center;
-  align-items: center;
   border: 1px solid var(--icon-items-color);
   border-radius: 4px;
   color: var(--icon-items-color);
