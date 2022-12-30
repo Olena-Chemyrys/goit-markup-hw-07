@@ -1,0 +1,32 @@
+.address-contain {
+  min-width: 231px;
+}
+
+.address .contact-links {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.footer .logo {
+  color: var(--primary-white-color);
+  margin-right: 0;
+  margin-bottom: 28px;
+}
+
+.contact-links .a-item {
+  color: var(--primary-white-color);
+  line-height: 1.7;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.address .contact-item {
+  display: flex;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  font-style: normal;
+  padding-top: 0;
+  padding-bottom: 0;
+}

@@ -1,0 +1,37 @@
+.container > .contact-links {
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
+.contact-links .contact-item {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+  margin: 0;
+}
+
+.contact-links .contact-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.contact-links .link {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  color: var(--primary-text-color);
+  transition: color var(--animate);
+}
+
+.contact-links .link:hover,
+.contact-links .link:focus {
+  color: var(--accent-color);
+}
+
+.contact-links .contact-icon {
+  margin-right: 10px;
+  width: 16px;
+  height: 12px;
+  fill: currentColor;
+}
