@@ -1,65 +1,34 @@
-@import "./utils/variables";
-@import "./base/common";
-@import "./base/reset";
-@import "./base/visually-hidden";
-@import "./utils/placeholder";
-@import "./components/section";
+@import "./utils/module";
 
-@import "./layouts/header";
-@import "./components/logo";
-@import "./components/navigation";
-@import "./components/contacts";
+@import "./base/module";
 
-@import "./layouts/hero";
-@import "./components/modal";
+@import "./components/module";
 
-@import "./layouts/individs";
-@import "./layouts/work";
-@import "./layouts/team";
-@import "./components/socials";
-@import "./layouts/clients";
-@import "./layouts/portfolio";
+@import "./layouts/module";
 
-@import "./layouts/footer";
-@import "./components/address";
-@import "./components/sign-up";
-@import "./components/mailing";
+// @import "./utils/variables";
+// @import "./base/common";
+// @import "./base/reset";
+// @import "./utils/";
+// @import "./utils/placeholder";
+// @import "./components/section";
 
-/* reset */
+// @import "./layouts/header";
+// @import "./components/logo";
+// @import "./components/navigation";
+// @import "./components/contacts";
 
-/* common */
+// @import "./layouts/hero";
+// @import "./components/modal";
 
-/* header-section */
+// @import "./layouts/individs";
+// @import "./layouts/work";
+// @import "./layouts/team";
+// @import "./components/socials";
+// @import "./layouts/clients";
+// @import "./layouts/portfolio";
 
-/* Main Section */
-
-/* individuals */
-
-/* work-section */
-
-/* team-section */
-
-/* social-links */
-
-/* <!-- clients-section --> */
-
-/* Portfolio */
-
-/*  buttons menu*/
-
-/* Footer */
-
-/*Footer social-links */
-
-/* modal windows */
-
-/* .modal-input:focus {
-  outline: none;
-  border-color: var(--accent-color);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-} */
-
-/* .send:hover,
-.send:focus {
-} */
+// @import "./layouts/footer";
+// @import "./components/address";
+// @import "./components/sign-up";
+// @import "./components/mailing";
