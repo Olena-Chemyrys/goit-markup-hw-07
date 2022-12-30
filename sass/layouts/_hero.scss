@@ -13,7 +13,7 @@
   margin: 0 auto;
 }
 
-.container .main-title {
+.main-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -29,8 +29,7 @@
   margin-right: auto;
   margin-left: auto;
 }
-
-.container .primary {
+.primary {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -45,18 +44,9 @@
   margin: 0 auto;
   padding: 10px 24px;
   transition: background-color var(--animate), color var(--animate);
-}
-
-.hero .primary:hover,
-.hero .primary:focus {
-  color: var(--title-text-color);
-  background-color: var(--buttons-background);
-}
-
-.section-title {
-  font-size: 36px;
-  line-height: 1.17;
-  color: var(--title-text-color);
-  text-align: center;
-  margin-bottom: 50px;
+  &:hover,
+  &.primary:focus {
+    color: var(--title-text-color);
+    background-color: var(--buttons-background);
+  }
 }

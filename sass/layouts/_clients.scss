@@ -5,10 +5,9 @@
 .client-item {
   width: 170px;
   height: 92px;
-}
-
-.client-item:not(:last-child) {
-  margin-right: 30px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .client-link {
@@ -21,16 +20,15 @@
   border-radius: 4px;
   color: var(--icon-items-color);
   transition: color var(--animate), border var(--animate);
+  &:hover,
+  &:focus {
+    border: 1px solid var(--accent-color);
+    color: var(--accent-color);
+  }
 }
 
 .client-icon {
   width: 100%;
   height: 100%;
   fill: currentColor;
-}
-
-.client-item .client-link:hover,
-.client-item .client-link:focus {
-  border: 1px solid var(--accent-color);
-  color: var(--accent-color);
 }

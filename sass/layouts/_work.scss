@@ -1,12 +1,20 @@
-.container .work-list {
+.section-title {
+  font-size: 36px;
+  line-height: 1.17;
+  color: var(--title-text-color);
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.work-list {
   display: flex;
 }
 
-.container .work-elem {
+.work-elem {
   align-items: flex-start;
-}
-.work-list > .work-elem:not(:last-child) {
-  margin-right: 30px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .work-tumb {
@@ -15,7 +23,7 @@
   height: 294px;
 }
 
-.work-tumb > .work-decorate {
+.work-decorate {
   position: absolute;
   bottom: 0;
   display: flex;
@@ -26,7 +34,7 @@
   padding-bottom: 27px;
 }
 
-.thumb-title {
+.work-thumb__title {
   line-height: 1.12;
   text-align: center;
   letter-spacing: 0.03em;

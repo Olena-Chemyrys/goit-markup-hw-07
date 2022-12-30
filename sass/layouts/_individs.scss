@@ -2,17 +2,16 @@
   padding-bottom: 0;
 }
 
-.container .individ-list {
+.individ-list {
   display: flex;
   align-items: flex-start;
 }
 
-.ind-list {
+.individ-item {
   width: 270px;
-}
-
-.ind-list:not(:last-child) {
-  margin-right: 30px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .individ-title {
@@ -27,7 +26,7 @@
   margin-bottom: 0;
 }
 
-.icon-thumb {
+.ind__icon-thumb {
   height: 120px;
   background-color: var(--buttons-background);
   border-radius: 4px;
